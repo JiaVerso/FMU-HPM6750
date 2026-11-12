@@ -1,0 +1,425 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "133a501c-0dfd-4005-95b1-941e7c6c97b9")
+	(paper "User" 355.6 254)
+	(title_block
+		(title "封面 / 系统框图")
+		(date "2026-11-09")
+		(rev "V1.0")
+		(company "FMU-H6750")
+		(comment 1 "HPM6750IVM2 Pixhawk FMU - page 1")
+	)
+	(lib_symbols)
+	(text "HPM6750IVM2 · 双核 RISC-V 816MHz · Pixhawk FMUv6X 接口兼容"
+		(exclude_from_sim no)
+		(at 30.48 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225c91ed-bc4a-407e-ae8e-bf5d510c7ee5")
+	)
+	(text "8 路 PWM 缓冲 / J21 输出 / 蜂鸣器 / 安全开关 / 状态 LED"
+		(exclude_from_sim no)
+		(at 152.4 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29f88e3f-645c-4e9e-953b-97446044139a")
+	)
+	(text "5V 输入保护 / LTC4417 ORing / MP2315 Buck / LP5907 / ADC 采样"
+		(exclude_from_sim no)
+		(at 24.13 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "748b9a2e-3efb-46c0-930c-f7564340e0ad")
+	)
+	(text "Pixhawk 连接器引脚表 / V6X 100P-34P 对照"
+		(exclude_from_sim no)
+		(at 279.4 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "769e7c19-c344-496b-a261-34340708c734")
+	)
+	(text "USB-C / 2×CAN / TELEM1-3 / GPS / RC-SBUS / 外部 SPI"
+		(exclude_from_sim no)
+		(at 152.4 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "889b0e19-186b-4f5e-907f-7e5292fb13eb")
+	)
+	(text "依据：先楫官方 PX4 端口 boards/px4/fmu-v6xhpm + HPM6750EVKMINI 资料"
+		(exclude_from_sim no)
+		(at 30.48 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9082328c-a0e1-41ed-83f3-00bc1aacaddf")
+	)
+	(text "ICM-42688-P / BMI088 / BMP390 / BMM350 / IMU 恒温加热"
+		(exclude_from_sim no)
+		(at 152.4 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a50dde64-5ac3-447d-8ae5-8fba39ce8504")
+	)
+	(text "FMU-H6750  Pixhawk 飞控主板（HPM6750IVM2）"
+		(exclude_from_sim no)
+		(at 30.48 25.4 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc0afc69-3bc8-4b89-ad48-4596dd1ccfe8")
+	)
+	(text "HPM6750IVM2 / 24MHz / 32.768kHz / 复位与 BOOT / cJTAG / 去耦"
+		(exclude_from_sim no)
+		(at 24.13 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6d34b39-ba54-423f-accd-87a32c3d0c5c")
+	)
+	(text "16MB QSPI NOR / microSD / 32KB FRAM / 2×24LC64"
+		(exclude_from_sim no)
+		(at 24.13 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8c792df-cb24-4825-99e3-5bad307aa56e")
+	)
+	(sheet
+		(at 152 64)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "167fb791-d3af-4569-891a-a8e6fd09ffe8")
+		(property "Sheetname" "SENSOR"
+			(at 152 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_sensors.kicad_sch"
+			(at 152 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 280 64)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6efad385-73fd-4c08-8dd2-4cb0355d6efd")
+		(property "Sheetname" "CONNECTOR"
+			(at 280 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "08_connectors.kicad_sch"
+			(at 280 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24 188)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89f036db-9a5c-402a-8b72-5b2bde1945d4")
+		(property "Sheetname" "STORAGE"
+			(at 24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_storage.kicad_sch"
+			(at 24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152 188)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aedf0fc6-31d1-40b0-8303-23c8c29f9dbe")
+		(property "Sheetname" "SAFETY"
+			(at 152 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_actuator.kicad_sch"
+			(at 152 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24 126)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c64fa82b-30ca-4b90-8fe9-0f8a3f4dfefd")
+		(property "Sheetname" "POWER"
+			(at 24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_power.kicad_sch"
+			(at 24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152 126)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da09e53d-df09-4dee-b043-f861cd50d80d")
+		(property "Sheetname" "COMM"
+			(at 152 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_comms.kicad_sch"
+			(at 152 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24 64)
+		(size 84 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0c79f26-b3c9-4904-9d83-1e9db42e92a4")
+		(property "Sheetname" "MCU"
+			(at 24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_mcu.kicad_sch"
+			(at 24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FMU-H6750"
+				(path "/133a501c-0dfd-4005-95b1-941e7c6c97b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

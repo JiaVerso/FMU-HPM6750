@@ -1,0 +1,8 @@
+﻿*.bak*
+*.lck
+~*
+fp-info-cache
+*-backups/
+*.kicad_prl
+.DS_Store
+Thumbs.db

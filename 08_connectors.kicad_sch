@@ -1,0 +1,312 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6efad385-73fd-4c08-8dd2-4cb0355d6efd")
+	(paper "User" 355.6 254)
+	(title_block
+		(title "连接器定义")
+		(date "2026-11-09")
+		(rev "V1.0")
+		(company "FMU-H6750")
+		(comment 1 "HPM6750IVM2 Pixhawk FMU - page 8")
+	)
+	(lib_symbols)
+	(text "  J1 2/4    SPI4 CS (ACC/GYRO)           → IMU2_ACC_CS / GYR_CS    一致"
+		(exclude_from_sim no)
+		(at 17.78 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "116c6965-b730-46dd-9933-9a3e8f37e429")
+	)
+	(text "FMU-H6750  连接器定义与 V6X 对照"
+		(exclude_from_sim no)
+		(at 17.78 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "13f97585-6a5d-4706-9e84-fddda0805d28")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 17.78 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "155aa236-5b16-4443-9421-905a1be819e4")
+	)
+	(text "V6X 100P（J5）与本板对应："
+		(exclude_from_sim no)
+		(at 17.78 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f9ea37e-5d2e-41ee-a339-f272fd684669")
+	)
+	(text "注：本页为接口定义说明页，电气连接分散在第 3-7 页对应功能块。"
+		(exclude_from_sim no)
+		(at 17.78 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2632a5a2-ad4a-47d9-ae29-30b3057a4831")
+	)
+	(text "SPI EXT / J20    1 3V3  2 SCK  3 MISO  4 MOSI  5 CS  6 GND"
+		(exclude_from_sim no)
+		(at 17.78 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "284e4720-6076-4832-9332-d603b6c951ae")
+	)
+	(text "POWER2 / J4      同 POWER1"
+		(exclude_from_sim no)
+		(at 17.78 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4086430e-f42c-4c11-a7d9-d5ddbe245d76")
+	)
+	(text "I2C4 / J19       1 5V  2 I2C2_SCL  3 I2C2_SDA  4 GND"
+		(exclude_from_sim no)
+		(at 17.78 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "432461df-2032-4055-936f-7716738acd52")
+	)
+	(text "POWER1 / J3      1 VDD_5V  2 VDD_5V  3 GND  4 GND  5 PWR_C_SENSE  6 PWR_V_SENSE"
+		(exclude_from_sim no)
+		(at 17.78 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e38366f-13ac-4304-ace8-8076a233221a")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 17.78 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86923d34-d96b-442b-96b7-fa9c30cf2837")
+	)
+	(text "  J5 63-72  UART3 / USART2 (IO)          → 无 IO 协处理器           差异"
+		(exclude_from_sim no)
+		(at 17.78 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91a966f4-ab4e-424f-9abc-264d05057021")
+	)
+	(text "  J5 12-18  I2C2 / I2C4 / GPS1 I2C       → I2C2 / I2C0             一致"
+		(exclude_from_sim no)
+		(at 17.78 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9653f5d9-22ff-448d-8ad3-6a6ba856ae03")
+	)
+	(text "RC / J23         1 5V  2 SBUS_IN  3 GND"
+		(exclude_from_sim no)
+		(at 17.78 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6a727ea-1124-44a1-82d2-b9418233ecb1")
+	)
+	(text "  J5 1-8    FMU_CH8..CH1 + BUZZER        → FMU_CH1-8 + BUZZER      一致"
+		(exclude_from_sim no)
+		(at 17.78 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba398646-71e5-4e47-99c7-2fa9fec5626b")
+	)
+	(text "TELEM1 / J15     1 5V  2 TX  3 RX  4 NC  5 NC  6 GND          （UART14 PZ10/PZ11）"
+		(exclude_from_sim no)
+		(at 17.78 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfc80eca-cf37-4e59-9ec1-33c91d164248")
+	)
+	(text "GPS / J18        1 5V  2 GPS_TX  3 GPS_RX  4 I2C0_SCL  5 I2C0_SDA  6 GND"
+		(exclude_from_sim no)
+		(at 17.78 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2eab38a-dfda-4a54-8c79-958cce0b71ec")
+	)
+	(text "  J5 28-36  GPS1 UART + POWER1           → GPS UART13 + ADC        一致"
+		(exclude_from_sim no)
+		(at 17.78 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c424e39a-5259-454a-b7ae-caeecf960717")
+	)
+	(text "CAN2 / J13       1 5V  2 CANH  3 CANL  4 GND"
+		(exclude_from_sim no)
+		(at 17.78 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7da92b5-3f0e-4669-ba0e-f73dc5445aba")
+	)
+	(text "  J5 75-80  SWD / USB / BOOTLOADER       → cJTAG + USB             差异"
+		(exclude_from_sim no)
+		(at 17.78 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5fdd85f-320a-4b33-991f-cd8ca5022753")
+	)
+	(text "SAFETY / J22     1 3V3  2 SAFETY_IN  3 SAFETY_LED  4 GND  5 nARMED  6 NC"
+		(exclude_from_sim no)
+		(at 17.78 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbfff378-65e6-49cb-9698-079c212fb9bd")
+	)
+	(text "TELEM2 / J16     1 5V  2 TX  3 RX  4 NC  5 NC  6 GND          （UART3  PA00/PA03）"
+		(exclude_from_sim no)
+		(at 17.78 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd2e27ea-9477-4c55-93f2-f0f17530f72c")
+	)
+	(text "CAN1 / J12       1 5V  2 CANH  3 CANL  4 GND"
+		(exclude_from_sim no)
+		(at 17.78 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e27c89a8-3e31-42cb-94b8-b858685bf37a")
+	)
+	(text "TELEM3 / J17     1 5V  2 TX  3 RX  4 NC  5 NC  6 GND          （UART5  PD06/PD07）"
+		(exclude_from_sim no)
+		(at 17.78 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3037db3-21b7-478d-b30f-1e3b740b671e")
+	)
+	(text "  J1 30     IMU_GPIO_HEATER              → HEATER                  一致"
+		(exclude_from_sim no)
+		(at 17.78 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e46ff937-924f-4247-8fcd-5a7c2166f185")
+	)
+	(text "  J5 40-60  TELEM3/2 + CAN1/2            → TELEM2/3 + CAN0/1       一致"
+		(exclude_from_sim no)
+		(at 17.78 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ece54fbf-55cf-4f1c-803b-601dd980c2b3")
+	)
+	(text "  J5 21-24  SAFETY / TELEM1              → SAFETY / TELEM1         一致"
+		(exclude_from_sim no)
+		(at 17.78 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed23702e-d401-48fb-8523-095ce4ec0bc5")
+	)
+	(text "FMU PWM / J21    1-8 PWM_1..PWM_8  9 GND  10 NC"
+		(exclude_from_sim no)
+		(at 17.78 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0109d27-a057-4cf0-90dc-4e92dc493be0")
+	)
+)

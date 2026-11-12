@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FMU_H6750")(type "KiCad")(uri "${KIPRJMOD}/FMU_H6750.kicad_sym")(options "")(descr "FMU-H6750 project symbols"))
+)
